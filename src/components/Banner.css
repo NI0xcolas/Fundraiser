@@ -1,0 +1,149 @@
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    background-color: none;
+    margin-top: 20px;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 17px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .stats-item {
+    flex: 1;
+  }
+  
+  .stats-item p {
+    margin: 0;
+    color: black;
+  }
+  
+  .stats-number {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .trace-title {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(51, 51, 201);
+  }
+  
+  .banner-content {
+    display: flex;
+    gap: 0px;
+    width: 100%;
+  }
+  
+  .banner-content a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits the color from its parent */
+  }
+  
+  .banner-box {
+    flex: 1;
+    padding: 50px 60px;
+    text-align: center;
+    transition: transform 0.3s;
+    border-radius: 0px;
+  }
+  
+  .banner-text {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  .banner-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  .banner-box-green {
+    background-color: #FFDB58;
+    color: black;
+  }
+  
+  .banner-box-blue {
+    background-color: #008080;
+    color: white;
+  }
+  
+  .banner-button {
+    padding: 15px 25px;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: transparent;
+  }
+  
+  .banner-button-black {
+    border-color: black;
+    color: black;
+  }
+  
+  .banner-button-white {
+    border-color: white;
+    color: white;
+  }
+  
+  .banner-content a:focus .banner-button {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .trace-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    background-color: transparent;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .trace-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(51, 51, 201);
+    padding: 10px 25px;
+    border-radius: 15px;
+    display: inline-block;
+  }
+  
+  .trace-text {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    font-size: 18px;
+  }
+  
+  .trace-search-bar {
+    width: 60%;
+    padding: 15px;
+    border-radius: 35px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .trace-search-bar::placeholder {
+    color: #ccc;
+  }
+  

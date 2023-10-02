@@ -1,0 +1,140 @@
+.create-fund-container {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.url-notice {
+    background-color: #ffdb58;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.start-fund-btn {
+    padding: 15px 30px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start-fund-btn:hover {
+    background-color: #006666;
+}
+
+.documentation {
+    margin-top: 20px;
+}
+
+.documentation a {
+    color: #008080;
+    text-decoration: none;
+}
+
+.documentation a:hover {
+    text-decoration: underline;
+}
+
+.cookie-notice {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.form-label > span {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.form-textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.network-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.network-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.network-dropdown:hover .network-dropdown-content {
+    display: block;
+}
+
+.network-option {
+    padding: 8px 15px; 
+    border-radius: 5px;
+    margin: 0; 
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-block; /* Adding this to make it inline */
+    width: 150px; /* Setting a fixed width for the buttons */
+    text-align: center;
+}
+
+.network-option.ethereum {
+    background-color: blue;
+    color: white;
+}
+
+.network-option.optimism {
+    background-color: red;
+    color: white;
+}
+
+.network-option.active {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

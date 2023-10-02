@@ -1,0 +1,10 @@
+.logo-container {
+  position: relative;
+  text-align: center; /* Center the logo */
+}
+
+.logo {
+  display: inline-block;
+  max-width: 200px; /* Adjust as necessary */
+  margin-bottom: 20px; /* Add some space below the logo */
+}
